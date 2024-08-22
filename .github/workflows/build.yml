@@ -20,7 +20,7 @@ jobs:
           distribution: 'corretto'
       
       - name: Compile
-        run: javac ./POO/Marcelo/BalancoTrimestral.java
+        run: cd ./POO/Marcelo; javac BalancoTrimestral.java
 
       - name: Execute
         run: cd ./POO/Marcelo; java BalanceTrimestral
