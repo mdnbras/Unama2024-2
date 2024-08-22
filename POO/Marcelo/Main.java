@@ -11,6 +11,7 @@ public class Main {
 		int idade = Integer.parseInt(readValue("Digite sua idade: "));
 		String resultado;
 
+
 		if (idade < 18) {
 			resultado = "Olá %s, você tem %d e é menor de idade".formatted(nome, idade);
 		} else {
