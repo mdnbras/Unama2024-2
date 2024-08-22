@@ -21,3 +21,7 @@ jobs:
       
       - name: Compile and Execute
         run: cd ./POO/Marcelo; javac BalancoTrimestral.java; ls; java BalancoTrimestral
+
+      - run: cd ./POO/JosePaulo; javac jp.java; ls; java jp
+
+      - run: cd ./POO/Rafael; javac BalancoTrimestral.java; ls; java BalancoTrimestral
