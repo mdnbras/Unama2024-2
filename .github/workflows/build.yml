@@ -23,4 +23,4 @@ jobs:
         run: javac ./POO/Marcelo/BalancoTrimestral.java
 
       - name: Execute
-        run: java ./POO/Marcelo/BalanceTrimestral
+        run: cd ./POO/Marcelo; java BalanceTrimestral
