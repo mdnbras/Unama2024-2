@@ -19,8 +19,5 @@ jobs:
           java-version: 17
           distribution: 'corretto'
       
-      - name: Compile
-        run: cd ./POO/Marcelo; javac BalancoTrimestral.java; ls
-
-      - name: Execute
-        run: cd ./POO/Marcelo; java BalanceTrimestral
+      - name: Compile and Execute
+        run: cd ./POO/Marcelo; javac BalancoTrimestral.java; ls; java BalancoTrimestral
